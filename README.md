@@ -32,7 +32,7 @@ import(
 在需使用的地方调用方法即可
 
 ```go
-propertyUtil.SimpleCopyProperties(&person, account)
+propertyUtil.SimpleCopyProperties(dst, src)
 ```
 
 
